@@ -6,9 +6,11 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "build": "expo export --platform web"
   },
   "dependencies": {
+    "@expo/metro-runtime": "~57.0.13",
     "@expo/ngrok": "^4.1.0",
     "@react-native-picker/picker": "^2.10.2",
     "@react-navigation/native": "^7.0.3",
@@ -16,16 +18,17 @@
     "expo": "^57.0.8",
     "expo-status-bar": "~2.0.0",
     "project-mad": "file:",
-    "react": "18.3.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
     "react-native": "^0.86.2",
-    "react-native-screens": "^4.2.0"
+    "react-native-screens": "^4.2.0",
+    "react-native-web": "^0.21.2"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2"
   },
   "overrides": {
     "brace-expansion": "5.0.9",
-    "image-size": "github:image-size/image-size#8994131c7c3ee8da1699e04700c95e0e683a0c68",
     "js-yaml": "4.3.1",
     "nanoid": "3.3.18"
   },
